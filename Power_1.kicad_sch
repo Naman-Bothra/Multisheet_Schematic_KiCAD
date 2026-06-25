@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e9cb1dbc-6987-4f0a-93d4-e2a87996f886")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 208.28 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82d341c-bc2a-470a-b2f2-9a9e1926733b")
+	)
+	(wire
+		(pts
+			(xy 224.79 59.69) (xy 224.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc46fc9-1b22-47b4-a046-891a84fee0a0")
+	)
+	(wire
+		(pts
+			(xy 208.28 59.69) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a58e0b-489e-4e21-8501-92d60702c7e6")
+	)
+	(wire
+		(pts
+			(xy 208.28 72.39) (xy 208.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28765d3b-f133-4f78-b864-ee045d58f6c3")
+	)
+	(wire
+		(pts
+			(xy 194.31 72.39) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f104d9fc-b79f-4ca4-b2a7-83d4a5774e95")
+	)
+	(hierarchical_label "MCU5V"
+		(shape output)
+		(at 194.31 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28eb392f-c396-4c06-86cb-d313718c3890")
+	)
+	(hierarchical_label "12Vin"
+		(shape input)
+		(at 224.79 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b611389-9771-4da1-ae8e-71bcd214f328")
+	)
+	(sheet
+		(at 176.53 81.28)
+		(size 87.63 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8320533f-ec6d-4417-af4f-dd972ac86086")
+		(property "Sheetname" "Indications"
+			(at 176.53 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Indications.kicad_sch"
+			(at 176.53 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5Vind" input
+			(at 208.28 81.28 90)
+			(uuid "10fffbc5-0640-4ad9-bd25-cb93d41223e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_1_Multisheet_Schematic"
+				(path "/cace1bc6-fcf4-40d0-8060-05947ca9e35d/fc4325c9-0c18-4688-a5b5-f2f7d022b30f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 30.48)
+		(size 86.36 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a9305d4c-92e3-4a39-85d9-504650c3be6a")
+		(property "Sheetname" "Regulator"
+			(at 176.53 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Regulator.kicad_sch"
+			(at 176.53 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5Vop" output
+			(at 208.28 59.69 270)
+			(uuid "46694c70-14f4-47a1-99de-02d62b82e59a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12Vin" input
+			(at 224.79 59.69 270)
+			(uuid "e75b0417-45a2-4ad1-9257-caa1a9f0fbba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_1_Multisheet_Schematic"
+				(path "/cace1bc6-fcf4-40d0-8060-05947ca9e35d/fc4325c9-0c18-4688-a5b5-f2f7d022b30f"
+					(page "4")
+				)
+			)
+		)
+	)
+)
